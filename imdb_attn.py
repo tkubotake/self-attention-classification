@@ -199,4 +199,5 @@ if __name__ == '__main__':
 
     # save model
     dill.dump(encoder, open("encoder.pkl","wb"))
+    print("encoder.pkl output done!!")
     dill.dump(classifier, open("classifier.pkl","wb"))
